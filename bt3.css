@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.draw{
+    height: 100px;
+    width: 100px;
+    border: 1px;
+    background-color: red;
+}
+.draw1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.draw2{
+    height: 100px;
+    width: 100px;
+    background-color:green;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}

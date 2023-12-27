@@ -1,0 +1,12 @@
+
+.infor{
+    padding: 10px;
+    border: 1px solid ;
+    width: 300px; 
+}
+.trunk{
+    margin-left: 10px;
+}
+p:hover{
+    background-color: rgb(7, 156, 248);
+}

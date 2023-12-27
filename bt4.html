@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form style="max-width: 40%; margin: 50px auto; border: 1px solid black; padding: 30px; border-radius: 10px;"> 
+        <h1 style="text-align: center;">Tuyển dụng</h1>
+        <div class="mb-3">
+            <label for="username" class="form-label">Họ và tên:</label>
+            <br>
+            <input type="text" class="form-control" id="username" aria-describedby="username">
+            <div id="usernameError" class="form-text text-danger"></div>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email: </label> <br>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <div id="emailError" class="form-text text-danger"></div>
+        </div>
+        <div class="mb-3">
+            <label for="phone" class="form-label">Số điện thoại:</label><br>
+            <input type="phone" class="form-control" id="phone" aria-describedby="phoneHelp">
+            <div id="phoneError" class="form-text text-danger"></div>
+        </div>
+        <div class="mb-3">
+            <label for="cv" class="form-label">CV:</label> <br>
+            <input type="cv" class="form-control" id="cv" aria-describedby="cvHelp">
+            <div id="cvError" class="form-text text-danger"></div>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Tin Nhắn:</label> <br>
+            <textarea  name="" id="" cols="30" rows="10"></textarea>
+         </div>
+           <button type="button">Gửi</button>
+    </form>
+    
+
+</body>
+</html>
